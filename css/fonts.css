@@ -1,0 +1,45 @@
+﻿/* font-family: "CoreSansE-35Light"; */
+@font-face {
+	font-family: "CoreSansE-35Light";
+	src: url("../fonts/CoreSansE/CoreSansE-35Light.otf")format("opentype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "CoreSansE-45Regular"; */
+@font-face {
+	font-family: "CoreSansE-45Regular";
+	src: url("../fonts/CoreSansE/CoreSansE-45Regular.otf")format("opentype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "CoreSansE-55Medium"; */
+@font-face {
+	font-family: "CoreSansE-55Medium";
+	src: url("../fonts/CoreSansE/CoreSansE-55Medium.otf")format("opentype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "CoreSansE-65Bold"; */
+@font-face {
+	font-family: "CoreSansE-65Bold";
+	src: url("../fonts/CoreSansE/CoreSansE-65Bold.otf")format("opentype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "CoreSansE-75ExtraBold"; */
+@font-face {
+	font-family: "CoreSansE-75ExtraBold";
+	src: url("../fonts/CoreSansE/CoreSansE-75ExtraBold.otf")format("opentype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Besom"; */
+@font-face {
+	font-family: "Besom";
+	src: url("../fonts/Besom/Besom.eot");
+	src: url("../fonts/Besom/Besom.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Besom/Besom.woff") format("woff"),
+	url("../fonts/Besom/Besom.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

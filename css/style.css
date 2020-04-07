@@ -1,0 +1,789 @@
+﻿
+body {
+  font-family: "Core Sans E", sans-serif;
+  font-family: "Besom", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*.................
+HEADER
+.................*/
+
+
+.header {
+  background-color: #fff;
+  background-image: url('../img/header_bg.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+}
+
+.logo {
+  text-align: center;
+}
+
+.spec {
+  font-size: 16px;
+  letter-spacing: 11px;
+  color: #ffffff;
+  font-family: "CoreSansE-35Light";
+  text-align: center;
+  margin-top: 12px;
+  background-image: url('../img/razmytie.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.nav {
+  margin-top: 30px;
+}
+
+.phone {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "CoreSansE-35Light";
+  text-align: center;
+  margin-top: 10px;
+}
+
+.title {
+  margin-top: 140px;
+  margin-bottom: 20px;
+}
+.title__name {
+  font-size: 107px;
+  letter-spacing: 5px;
+  line-height: 12px;
+  color: #ff0000;
+  font-family: "Besom";
+  text-align: center;
+  filter: drop-shadow(-0.279px 3.99px 4px rgba(0,0,0,0.34));
+  margin-left: -50px;
+}
+.title__subtitle {
+  margin-top: 30px;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-family: "CoreSansE-65Bold";
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: -60px;
+}
+.for_circle {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.for_circle p {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "CoreSansE-35Light";
+  font-style: italic;
+}
+.for_circle ul {
+  list-style: none;
+  background-image: url('../img/circle.png');
+  background-repeat: no-repeat;
+  background-position: center center; 
+  text-align: left;
+  margin-left: 60px;
+}
+.for_circle li {
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #1b1916;
+  font-family: "CoreSansE-65Bold";
+  text-align: right;
+  padding-top: 9px;
+  padding-left: 9px;
+}
+.call__button {
+  margin-top: 30px;
+  margin-bottom: 200px;
+  margin-left: 80px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "CoreSansE-65Bold";
+  text-transform: uppercase;
+  text-align: center;
+  width: 304px;
+  height: 66px;
+  padding: 20px;
+  cursor: pointer;
+  background-image: url('../img/red_button.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.call__button a {
+  margin-left: 20px;
+  
+}
+.call__button a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+/*.................
+SECTION 1
+.................*/
+.section {
+  margin-top: 60px;
+}
+.section__name h1, .section__name h2 {
+  text-align: center;
+}
+.section__name h1 {
+  font-size: 130px;
+  letter-spacing: 7px;
+  line-height: 20px;
+  color: silver;
+  font-family: "Besom";
+}
+.section__name h2 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #ff0000;
+  font-family: "CoreSansE-75ExtraBold";
+  text-transform: uppercase;
+  margin-top: -60px;
+}
+.start__finish {
+  margin-top: 100px;
+  background-image: url('../img/line.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.start__finish h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-65Bold";
+  text-align: left;
+}
+.start__finish p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-45Regular";
+  text-align: left;
+}
+.start__finish h4 {
+  font-size: 24px;
+  line-height: 24px;
+  color: #ff0000;
+  font-family: "CoreSansE-45Regular";
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+.for__specznaniya {
+  margin-left: 120px;
+}
+.for__specznaniya__text {
+  margin-left: 50px;
+  margin-top: 80px;
+}
+.for__specnavyki__text {
+  margin-top: 90px;
+  margin-left: 250px;
+}
+.for__specnavyki {
+  margin-top: 40px;
+  text-align: left;
+}
+.for__extrim__text {
+  margin-top: 60px;
+  margin-left: -100px;
+}
+.for__extrim {
+  margin-left: 60px;
+}
+.for__finish {
+  margin-top: 210px;
+  margin-right: 90px;
+}
+.start__finish h5 {
+  text-align: right;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ff0000;
+  font-family: "CoreSansE-45Regular";
+}
+.for__stress__text {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.for__stress {
+  margin-top: -40px;
+  margin-left: 10px;
+}
+/*.................
+SECTION 2
+.................*/
+
+.section__two {
+  background-image: url('../img/fon.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  border: 1px solid transparent;
+  width: 765px;
+  height: 985px;
+  margin: 80px auto;
+}
+.budet {
+  background-image: url('../img/border.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 723px;
+  height: 370px;
+  margin: 200px auto;
+}
+.chto__daet h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-family: "CoreSansE-65Bold";
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 100px;
+  
+}
+.chto__daet {
+  background-image: url('../img/red_img.png');
+  background-repeat: no-repeat;
+  height: 370px;
+  width: 269px;
+  background-position: top center;
+  border: 1px solid transparent;
+  margin-left: -10px;
+}
+.for__flex {
+  display: flex;
+}
+.znaniya span {
+  font-size: 46px;
+  letter-spacing: 2px;
+  line-height: 15px;
+  color: silver;
+  font-family: "Besom";
+  margin-top: 60px;
+  margin-right: 10px;
+}
+.znaniya h2 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  color: #ffffff;
+  font-family: "CoreSansE-65Bold";
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+.znaniya p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "CoreSansE-35Light";
+}
+.znaniya, .navyki {
+  margin-left: 60px;
+}
+.navyki span {
+  font-size: 46px;
+  letter-spacing: 2px;
+  line-height: 15px;
+  color: silver;
+  font-family: "Besom";
+  margin-top: 60px;
+  margin-right: 10px;
+}
+.navyki h2 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  color: #ffffff;
+  font-family: "CoreSansE-65Bold";
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+.navyki p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "CoreSansE-35Light";
+}
+
+.ne__budet {
+  margin-top: -120px;
+}
+
+.for__znak {
+  display: flex;
+  justify-content: center;
+  background-image: url('../img/for_!.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.for__znak h1 {
+  font-size: 93px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-family: "Besom";
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.for__znak h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-family: "CoreSansE-65Bold";
+  text-transform: uppercase;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.skuka h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  color: #ffffff;
+  font-family: "CoreSansE-65Bold";
+  text-transform: uppercase;
+}
+.skuka p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "CoreSansE-35Light";
+}
+.skuka {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.vakh {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.vakh h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  color: #ffffff;
+  font-family: "CoreSansE-65Bold";
+  text-transform: uppercase;
+}
+.vakh p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "CoreSansE-35Light";
+}
+
+
+
+ /*.................
+MAIN
+.................*/ 
+.main {
+  margin-top: 150px;
+}
+.what__do {
+  
+}
+.what__do__name h1, .what__do__name h2 {
+  text-align: center;
+}
+.what__do__name h1 {
+  font-size: 130px;
+  letter-spacing: 7px;
+  line-height: 20px;
+  color: silver;
+  font-family: "Besom";
+}
+.what__do__name h2 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #ff0000;
+  font-family: "CoreSansE-75ExtraBold";
+  text-transform: uppercase;
+  margin-top: -60px;
+}
+.OneColumn {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 60px;
+}
+.OneColumn img {
+  margin-top: 20px;
+  margin-left: 160px;
+  width: 110px;
+  height: 94px;
+}
+.OneColumn h1 {
+  margin-left: 160px;
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-65Bold";
+}
+.OneColumn p {
+  margin-left: 160px;
+  margin-top: 10px;
+   font-size: 16px;
+   line-height: 24px;
+   color: #4d4d4d;
+   font-family: "CoreSansE-45Regular";
+}
+.TwoColumn {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 60px;
+}
+.TwoColumn img {
+  margin-top: 20px;
+  margin-left: 60px;
+  width: 110px;
+  height: 94px;
+}
+.TwoColumn h1 {
+  margin-left: 60px;
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-65Bold";
+}
+.TwoColumn p {
+  margin-top: 10px;
+  margin-left: 60px;
+   font-size: 16px;
+   line-height: 24px;
+   color: #4d4d4d;
+   font-family: "CoreSansE-45Regular";
+}
+.ThreeColumn {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 60px;
+}
+.ThreeColumn img {
+  width: 110px;
+  height: 94px;
+  margin: 20px auto;
+}
+.ThreeColumn h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-65Bold";
+  margin: 0px auto;
+}
+.ThreeColumn p {
+   font-size: 16px;
+   line-height: 24px;
+   color: #4d4d4d;
+   font-family: "CoreSansE-45Regular";
+   margin: 10px auto;
+}
+.blok__gorod {
+  margin-top: 40px;
+}
+.blok__gorod h1 {
+  font-size: 36px;
+  letter-spacing: 2px;
+  color: #ff0000;
+  font-family: "CoreSansE-75ExtraBold";
+  text-align: center;
+  text-transform: uppercase;
+}
+.for_red_circle {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+.ab p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #fff;
+  font-family: "CoreSansE-65Bold";
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.ab {
+  width: 5%;
+  background-image: url('../img/red_circle.png');
+  background-repeat: no-repeat;
+  background-position: center right; 
+}
+.ac {
+  width: 15%;
+  background-image: url('../img/red_line.png');
+  background-repeat: no-repeat;
+  background-position: center left; 
+}
+.for__words {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: -30px;
+}
+.red_circle_text {
+  width: 20%;
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-65Bold";
+}
+/*.................
+SECTION 3
+.................*/
+.section__three {
+  margin-top: 80px;
+  background-image: url('../img/ispytai_fon.jpg');
+  background-repeat: no-repeat;
+  background-position: top center; 
+}
+.zaxvat {
+  margin-top: 160px;
+}
+.zaxvat h1 {
+  font-size: 90px;
+  letter-spacing: 5px;
+  line-height: 17px;
+  color: #ff0000;
+  font-family: "Besom";
+  text-align: right;
+  margin-right: 20px;
+}
+.zaxvat h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-family: "CoreSansE-75ExtraBold";
+  text-align: right;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+.call__button__ispytai {
+  margin-top: 140px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "CoreSansE-65Bold";
+  text-transform: uppercase;
+  text-align: center;
+  width: 304px;
+  height: 66px;
+  padding: 20px;
+  cursor: pointer;
+  background-image: url('../img/red_button.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+/*.................
+ARTICLE1
+.................*/
+.article {
+  margin-top: 100px;
+}
+.new__naviki__name h1 {
+  font-size: 120px;
+  letter-spacing: 7px;
+  line-height: 20px;
+  color: silver;
+  font-family: "Besom";
+  text-align: center;
+}
+.new__naviki__name h2 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #ff0000;
+  font-family: "CoreSansE-75ExtraBold";
+  text-transform: uppercase;
+  margin-top: -60px;
+  text-align: center;
+}
+.ArticleNavyk {
+  margin-top: 30px;
+  background-image: url('../img/navyki_fon1.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.osvoish p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-45Regular";
+  margin-top: 50px;
+  margin-left: 560px;
+}
+
+.pobyvaesh p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-45Regular";
+  margin-top: 60px;
+  margin-left: 120px;
+}
+.provedesh p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-45Regular";
+  margin-top: 70px;
+  margin-left: 180px;
+}
+.leo p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-45Regular";
+  margin-top: 110px;
+  margin-left: 240px;
+}
+.adrenalin p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-45Regular";
+  margin-top: 90px;
+  margin-left: 240px;
+}
+.men img {
+  margin-top: 40px;
+  margin-left: 140px;
+}
+/*.................
+ARTICLE2
+.................*/
+.speckurs {
+  margin-top: 90px;
+}
+.programma__name h1 {
+  font-size: 130px;
+  letter-spacing: 7px;
+  line-height: 20px;
+  color: silver;
+  font-family: "Besom";
+  text-align: center;
+}
+.programma__name h2 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #ff0000;
+  font-family: "CoreSansE-75ExtraBold";
+  text-transform: uppercase;
+  margin-top: -60px;
+  text-align: center;
+}
+.programma__fon {
+  margin-top: 40px;
+  background-image: url('../img/programma_bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.ProgrammaOne, .ProgrammaTwo {
+  margin-top: 60px;
+}
+.programma__flex {
+  display: flex;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.programma__flex h3 {
+  margin-top: 10px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 16px;
+  color: #ff0000;
+  font-family: "Besom";
+}
+.programma__flex p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-45Regular";
+  margin-left: 20px;
+}
+.left {
+  margin-left: 60px;
+}
+.ProgrammaOne h1 {
+  font-size: 60px;
+  letter-spacing: 3px;
+  line-height: 17px;
+  color: #ff0000;
+  font-family: "Besom";
+  margin-top: 60px;
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 60px;
+}
+.call__button__speckurs {
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "CoreSansE-65Bold";
+  text-transform: uppercase;
+  text-align: center;
+  width: 304px;
+  height: 66px;
+  padding: 20px;
+  cursor: pointer;
+  background-image: url('../img/red_button.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.programma__foto {
+  margin-top: 0px;
+}
+.programma__foto img {
+  margin-left: 80px;
+  width: 882px;
+}
+ /*.................
+MEDIA
+.................*/ 
+   
+  
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+ 
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+ 
+}
+
+@media only screen and (max-width : 578px) {
+
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+}
