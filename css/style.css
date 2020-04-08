@@ -764,6 +764,78 @@ ARTICLE2
   margin-left: 80px;
   width: 882px;
 }
+/*.................
+ARTICLE3
+.................*/
+.teacher {
+  margin-top: 100px;
+}
+.instructor__name h1 {
+  font-size: 130px;
+  letter-spacing: 7px;
+  line-height: 20px;
+  color: silver;
+  font-family: "Besom";
+  text-align: center;
+}
+.instructor__name h2 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #ff0000;
+  font-family: "CoreSansE-75ExtraBold";
+  text-transform: uppercase;
+  margin-top: -60px;
+  text-align: center;
+}
+.instructor__face {
+  margin-top: 60px;
+  text-align: center;
+}
+.instructor__face h3 {
+  margin-top: 30px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #ff0000;
+  font-family: "CoreSansE-45Regular";
+}
+.instructor__text {
+  display: flex;
+}
+.instructor__text img {
+  margin-left: 100px;
+}
+.instructor__column p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-35Light";
+  margin-left: 10px;
+}
+.instructor__namber {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+.instructor__namber h1 {
+  font-size: 120px;
+  letter-spacing: 6px;
+  line-height: 17px;
+  color: #ff0000;
+  font-family: "Besom";
+  margin-top: 20px;
+}
+.instructor__namber p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-35Light";
+  margin-left: 10px;
+}
+.top {
+  margin-top: -20px;
+}
  /*.................
 MEDIA
 .................*/ 
