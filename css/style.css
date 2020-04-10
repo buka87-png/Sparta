@@ -836,6 +836,94 @@ ARTICLE3
 .top {
   margin-top: -20px;
 }
+/*.................
+SECTION 4
+.................*/
+.otzyvy {
+  margin-top: 100px;
+}
+.otzyvy__name h1 {
+  font-size: 130px;
+  letter-spacing: 7px;
+  line-height: 20px;
+  color: silver;
+  font-family: "Besom";
+  text-align: center;
+}
+.otzyvy__name h2 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #ff0000;
+  font-family: "CoreSansE-75ExtraBold";
+  text-transform: uppercase;
+  margin-top: -60px;
+  text-align: center;
+}
+.otzyvy__content {
+  margin-top: 60px;
+  background-image: url('../img/otzyvy_bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 70%;
+}
+.otzyzy__video {
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+.play {
+  position: absolute; 
+  top: 35%;
+  left: 45%;
+}
+.otzyvy__vesna {
+  margin-top: -20px;
+  background-image: url('../img/rectangle.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.for__vesna {
+  margin-top: 40px;
+}
+.for__vesna img {
+  margin-left: 220px;
+  margin-top: 40px;
+}
+.for__vesna__text h1 {
+  font-size: 20px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-65Bold";
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.for__vesna__text p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-45Regular";
+  margin-left: 20px;
+}
+.for__vesna__text a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "CoreSansE-45Regular";
+  margin-left: 20px;
+  cursor: pointer;
+  border-bottom: 1px dashed #4d4d4d;
+}
+.for__vesna__text a:hover {
+  color: #ff0000;
+  text-decoration: none;
+  border-bottom: 1px dashed #ff0000;
+}
+.page__circle {
+  margin: 40px auto;
+  text-align: center;
+}
+.page__circle img {
+  cursor: pointer;
+}
  /*.................
 MEDIA
 .................*/ 
