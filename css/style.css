@@ -877,13 +877,13 @@ SECTION 4
   left: 45%;
 }
 .otzyvy__vesna {
-  margin-top: -20px;
+  margin-top: -40px;
   background-image: url('../img/rectangle.png');
   background-repeat: no-repeat;
   background-position: top center;
 }
 .for__vesna {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 .for__vesna img {
   margin-left: 220px;
@@ -893,7 +893,7 @@ SECTION 4
   font-size: 20px;
   color: #4d4d4d;
   font-family: "CoreSansE-65Bold";
-  margin-top: 80px;
+  margin-top: 120px;
   margin-left: 20px;
 }
 .for__vesna__text p {
@@ -918,11 +918,74 @@ SECTION 4
   border-bottom: 1px dashed #ff0000;
 }
 .page__circle {
-  margin: 40px auto;
+  margin: 50px auto;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 .page__circle img {
   cursor: pointer;
+}
+.for__hover__odin {
+  background-image: url('../img/strelka_left.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 40px;
+  height: 20px;
+  margin-right: 20px;
+}
+.for__hover__odin:hover {
+  background-image: url('../img/hover_strelka_left.png');
+}
+.for__hover__dva {
+  background-image: url('../img/circle_gray.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 10px;
+  height: 9px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.for__hover__dva:hover {
+  background-image: url('../img/hover_circle.png');
+}
+.for__hover__tri {
+  background-image: url('../img/strelka_right.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 66px;
+  height: 20px;
+}
+.for__hover__tri:hover {
+  background-image: url('../img/hover_strelka_right.png');
+}
+/*.................
+ARTICLE4
+.................*/
+.article__four {
+  margin-top: 120px;
+}
+.geography__name h1 {
+  font-size: 130px;
+  letter-spacing: 7px;
+  line-height: 20px;
+  color: silver;
+  font-family: "Besom";
+  text-align: center;
+}
+.geography__name h2 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #ff0000;
+  font-family: "CoreSansE-75ExtraBold";
+  text-transform: uppercase;
+  margin-top: -60px;
+  text-align: center;
+}
+.for__map {
+  margin-top: 40px;
+  text-align: center;
 }
  /*.................
 MEDIA
