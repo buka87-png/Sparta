@@ -987,7 +987,128 @@ ARTICLE4
   margin-top: 40px;
   text-align: center;
 }
- /*.................
+/*.................
+ARTICLE5
+.................*/
+.for__forma {
+  margin-top: 60px;
+  background-image: url('../img/forma_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.forma {
+  text-align: center;
+}
+.forma h1 {
+  margin-top: 60px;
+  font-size: 65px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  font-family: "Besom";
+}
+.forma p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "CoreSansE-35Light";
+  text-align: left;
+  margin-left: 40px;
+}
+.for__center {
+  margin: 20px auto;
+  width: 440px;
+}
+form {
+  margin-top: 30px;
+}
+input {
+  width: 367px;
+  height: 50px;
+  border-radius: 24px;
+  background-color: rgba(0, 215, 215, 0.1);
+  cursor: pointer;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+::-webkit-input-placeholder {
+  color:#fff; 
+  padding-left: 30px;
+  }
+  ::-moz-placeholder {
+    color:#fff; 
+    padding-left: 30px;
+    }
+  :-moz-placeholder {
+    color:#fff; 
+    padding-left: 30px;
+    }
+  :-ms-input-placeholder {
+    color:#fff; 
+    padding-left: 30px;
+    }
+.call__button__form {
+  margin: 50px auto 150px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "CoreSansE-65Bold";
+  text-transform: uppercase;
+  text-align: center;
+  width: 304px;
+  height: 66px;
+  padding: 20px;
+  cursor: pointer;
+  background-image: url('../img/red_button.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+/*.................
+FOOTER
+.................*/  
+footer {
+  margin-top: 40px;
+}
+.logo__footer {
+  display: lflex;
+  flex-direction: column;
+}
+.logo__footer p {
+  text-align: right;
+  margin-right: 70px;
+  margin-top: -10px;
+  font-size: 14px;
+  color: #3c313b;
+  font-family: "CoreSansE-35Light";
+}
+.logo__footer img {
+  margin-left: 160px;
+}
+.konf {
+  text-align: center;
+  margin-top: 10px;
+}
+.konf a {
+  font-size: 14px;
+  color: #3c313b;
+  font-family: "CoreSansE-45Regular";
+  cursor: pointer;
+  border-bottom: 1px dashed #3c313b;
+}
+.konf a:hover {
+  color: #3c313b;
+  text-decoration: none;
+  border-bottom: 1px dashed #3c313b;
+}
+.phone__footer {
+  font-size: 18px;
+  color: #3c313b;
+  font-family: "CoreSansE-35Light";
+  text-align: center;
+  margin-right: 120px;
+}
+/*.................
 MEDIA
 .................*/ 
    
